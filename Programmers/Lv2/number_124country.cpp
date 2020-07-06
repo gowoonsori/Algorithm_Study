@@ -8,16 +8,14 @@ string solution(int n) {
     string answer = "";
     
     while(n > 0){
-        if(n % 3 == 1 ) answer+= "1";
-        else if(n % 3 == 2 ) answer += "2";
+        if(n % 3 == 1 ) answer= "1" + answer;
+        else if(n % 3 == 2 ) answer = "2" + answer;
         else {
-            answer += "4";
+            answer = "4" + answer;
             n = n/3 -1;
             continue;
         }
         n /= 3;
     }
-    reverse(answer.begin(), answer.end());
-    
     return answer;
 }

@@ -17,7 +17,7 @@ int solution(string skill, vector<string> skill_trees) {
         answer++;
         cnt=1;
         for(int i=0; i<str.length(); i++){
-            if(skill_order[str[i]] == cnt) cnt++;
+            if(skill_order[str[i]] == cnt) cnt++;   
             else if(skill_order[str[i]] > cnt) {
                 answer--;
                 break;
