@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
 #include <string>
 
 using namespace std;
@@ -76,47 +78,38 @@ bool check(string str)
     }
     return true;
 }
-void cal(string str, string r_str, string &ans)
+void cal(string &str, string r_str, string &ans)
 {
-    for (int i = str.length()-1; i >= 0; i--)
+    char a2, b2;
+    for (int i = str.length() - 1; i >= 0; i--)
     {
         int a = (str[i] - 'a' + r_str[i] - 'a') / 26;
         int b = (str[i] - 'a' + r_str[i] - 'a') % 26;
-        cout << a << " " << b << endl;
         if (a == 1)
-        {
-            ans[i] = 'a';
-            ans[i - 1] += b;
-            cout << ans[i] << " " << ans[i - 1] << endl;
-        }
-        else
-        {
-            ans[i] = out_alp(b);
-            cout << ans[i] << endl;
-        }
-        cout << ": " << ans[i]<<endl;
+            str[i - 1] += a;
+
+        ans += out_alp(b);
     }
 }
 
-string rule(string str)
+void rule(string &str)
 {
-    string ans;
+    string ans = "";
     string r_str = str;
+
     reverse(r_str.begin(), r_str.end());
     cal(str, r_str, ans);
-    return ans;
+    str = ans;
 }
 
 int main()
 {
     string input;
-    input = "apple";
+    cin >> input;
 
-    while (1)
+    while (!check(input))
     {
-        input = rule(input);
-        if (check(input))
-            break;
+        rule(input);
     }
 
     cout << input;
