@@ -8,11 +8,11 @@ int R, C;
 int M_x, M_y;
 int D_x, D_y;
 bool arrive = false;
-vector<string> answer;
+vector<vector<char>> answer;
 
 int dir[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
-void dfs(vector<string> map, vector<vector<bool>> &visit, int x, int y)
+void dfs(vector<vector<char>> map, vector<vector<bool>> &visit, int x, int y)
 {
     if (y == D_y && x == D_x)
     {
@@ -40,15 +40,15 @@ void dfs(vector<string> map, vector<vector<bool>> &visit, int x, int y)
 int main()
 {
     cin >> R >> C;
-    vector<string> arr(R,"0");
+    vector<vector<char>> arr(R, vector<char>(C, '0'));
     vector<vector<bool>> visit(R, vector<bool>(C, false));
     string str;
 
     for (int i = 0; i < R; i++)
     {
-        int j=0;
-        cin >> arr[i];
-        for (auto c : arr[i])
+        int j = 0;
+        cin >> str;
+        for (auto c : str)
         {
             arr[i][j] = c;
             if (arr[i][j] == 'M')
@@ -71,7 +71,11 @@ int main()
         cout << "YES" << endl;
         for (int i = 0; i < answer.size(); i++)
         {
-                cout << answer[i] <<endl;
+            for (int j = 0; j < answer[i].size(); j++)
+            {
+                cout << answer[i][j];
+            }
+            cout << endl;
         }
     }
     else
