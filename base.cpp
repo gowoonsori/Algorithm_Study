@@ -2,10 +2,17 @@
 
 using namespace std;
 
-int main(){
-    solution();
-}
+vector<string> input_func();
+int solution(vector<string>);
 
-int solution() {
+int main() { solution(input_func()); }
 
+vector<string> input_func() {
+    vector<string> input;
+
+    string str, item;
+    cin >> str;
+
+    return input;
 }
+int solution(vector<string> input) {}
