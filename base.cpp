@@ -2,17 +2,16 @@
 
 using namespace std;
 
-vector<string> input_func();
-int solution(vector<string>);
+long long solution(int n, vector<int> works);
 
-int main() { solution(input_func()); }
-
-vector<string> input_func() {
-    vector<string> input;
-
-    string str, item;
-    cin >> str;
-
-    return input;
+int main() {
+    int n;
+    vector<int> input = {4, 3, 3};
+    solution(n, input);
+    return 0;
 }
-int solution(vector<string> input) {}
+
+long long solution(int n, vector<int> works) {
+    long long answer = 0;
+    return answer;
+}
