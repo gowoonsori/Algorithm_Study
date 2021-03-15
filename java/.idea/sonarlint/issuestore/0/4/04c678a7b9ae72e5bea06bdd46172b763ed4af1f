@@ -1,0 +1,12 @@
+
+N
+java:S1612"",Replace this lambda with a method reference.(–θΰ£ώÿÿÿÿ8Ν²ƒ/
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÿΐ½ϋÿÿÿÿÿ8γομ±ƒ/
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(–θΰ£ώÿÿÿÿ8Ν²ƒ/
+B
+java:S1659"%Declare "pointer" on a separate line.(ί•Α8ίή²ƒ/
+3
+java:S1700"Rename field "quadtree"(‰8φαπ±ƒ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«γώÿÿÿÿ
+i
+java:S3008"LRename this field "C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ί•Α8ϋφν±ƒ/

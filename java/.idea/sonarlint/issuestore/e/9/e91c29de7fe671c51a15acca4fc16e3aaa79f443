@@ -1,22 +1,22 @@
 
+C
+java:S1659)"!Declare "row" on a separate line.(Œƒ±…üÿÿÿÿ8§’˜ü‚/
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…å¿„üÿÿÿÿ8ŠŒĞú‚/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«ãœşÿÿÿÿ
+A
+java:S1659
+"Declare "W" on a separate line.(î³±¬øÿÿÿÿ8‰ªƒû‚/
+Z
+java:S1197	"8Move the array designator from the variable to the type.(÷¢ƒÿÿÿÿÿ8—ùÖú‚/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¹áşıÿÿÿÿ8¬äÒú‚/
+n
+java:S3008
+"LRename this field "H" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î³±¬øÿÿÿÿ8‰ªƒû‚/
+Z
+java:S1197"8Move the array designator from the variable to the type.(èÖÁıÿÿÿÿ8“øùú‚/
+I
+java:S1612%",Replace this lambda with a method reference.(´ò¼º8§’˜ü‚/
 n
 java:S3008
 "LRename this field "W" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î³±¬øÿÿÿÿ8‰ªƒû‚/
 U	java:S106%"9Replace this use of System.out or System.err by a logger.(´ò¼º8§’˜ü‚/
-Z
-java:S1197	"8Move the array designator from the variable to the type.(÷¢ƒÿÿÿÿÿ8—ùÖú‚/
-Z
-java:S1197"8Move the array designator from the variable to the type.(èÖÁıÿÿÿÿ8“øùú‚/
-n
-java:S3008
-"LRename this field "H" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î³±¬øÿÿÿÿ8‰ªƒû‚/
-C
-java:S1659)"!Declare "row" on a separate line.(Œƒ±…üÿÿÿÿ8§’˜ü‚/
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¹áşıÿÿÿÿ8¬äÒú‚/
-A
-java:S1659
-"Declare "W" on a separate line.(î³±¬øÿÿÿÿ8‰ªƒû‚/
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…å¿„üÿÿÿÿ8ŠŒĞú‚/
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«ãœşÿÿÿÿ
-I
-java:S1612%",Replace this lambda with a method reference.(´ò¼º8§’˜ü‚/

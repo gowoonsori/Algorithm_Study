@@ -1,0 +1,18 @@
+
+{
+java:S3008"YRename this field "connect_switch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¶½‰ûÿÿÿÿ8ÊÙ¶¯ƒ/
+U
+java:S1197"8Move the array designator from the variable to the type.(ğÀ¬8»ãÖ¯ƒ/
+N
+java:S1612.",Replace this lambda with a method reference.(–èà£şÿÿÿÿ8€Øî°ƒ/
+r	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ÊèÄúÿÿÿÿ8©äø¯ƒ/
+l	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßû‚v8…ÉÀ°ƒ/
+Z
+java:S1197"8Move the array designator from the variable to the type.(Ö¶½‰ûÿÿÿÿ8ÊÙ¶¯ƒ/
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ò€†Ì8¯È°ƒ/
+i
+java:S3008"LRename this field "C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËùÕØ8õ«Ü¯ƒ/
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÂ’áıÿÿÿÿ8ıç•¯ƒ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õûò‰ùÿÿÿÿ
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(–èà£şÿÿÿÿ8€Øî°ƒ/
