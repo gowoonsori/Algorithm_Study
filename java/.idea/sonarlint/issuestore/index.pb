@@ -15,3 +15,7 @@ U
 %src/jongManBook/middle/clocksync.java,f\4\f4be9ac7f956eeb1bc68456d2a5599a32826e6e3
 Q
 !src/jongManBook/low/quadtree.java,0\4\04c678a7b9ae72e5bea06bdd46172b763ed4af1f
+Q
+!src/jongManBook/middle/fence.java,0\5\0515d9fe42c330dd66978dd5bd4eed0516c17846
+T
+$src/jongManBook/middle/wildcard.java,6\a\6af5cbc7c765f2d27c70a63663a0cecb25be30e4

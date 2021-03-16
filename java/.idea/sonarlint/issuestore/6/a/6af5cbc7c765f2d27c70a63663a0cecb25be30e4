@@ -1,0 +1,26 @@
+
+n
+java:S3008"LRename this field "C" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ°Ú±ÿÿÿÿÿ8›‰šÖƒ/
+9
+java:S1700"Rename field "wildCard"(± ëñøÿÿÿÿ8›‰šÖƒ/
+U
+java:S1197"8Move the array designator from the variable to the type.(Ùá´8€ŞÖƒ/
+K
+java:S1121;".Extract the assignment out of this expression.(øã¯8İñ‡×ƒ/
+L
+java:S1066="/Merge this if statement with the enclosing one.(…ÜŠ”8İñ‡×ƒ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õûò‰ùÿÿÿÿ
+K
+java:S1121A".Extract the assignment out of this expression.(Ğ‚›¨8Ê¥×ƒ/
+A
+java:S1659"Declare "n" on a separate line.(ğ°Ú±ÿÿÿÿÿ8›‰šÖƒ/
+P
+java:S11219".Extract the assignment out of this expression.(“õ ¯úÿÿÿÿ8İ¥Œ×ƒ/
+I
+java:S16122",Replace this lambda with a method reference.(¬Œª­8·”‘×ƒ/
+h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÿàH8Å‘Öƒ/
+J
+java:S1121>".Extract the assignment out of this expression.(‹ñ8İñ‡×ƒ/
+D
+java:S1659""Declare "file" on a separate line.(± ëñøÿÿÿÿ8è”ìÖƒ/
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(¬Œª­8·”‘×ƒ/
