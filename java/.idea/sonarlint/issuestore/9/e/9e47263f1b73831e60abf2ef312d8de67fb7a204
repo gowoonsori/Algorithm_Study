@@ -1,7 +1,0 @@
-
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñßÎ©øÿÿÿÿ8ÞÓ×Õ‚/
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßµ¶§ùÿÿÿÿ8¸ø‘Ö‚/
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¥Å³ ýÿÿÿÿ8›þÕÕ‚/
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßµ¶§ùÿÿÿÿ8¸ø‘Ö‚/
-M
-java:S5960"+Remove this assertion from production code.(Ç¢Ööþÿÿÿÿ8°À›Ö‚/
