@@ -1,3 +1,5 @@
+package scofe.second;
+
 import java.util.*;
 
 class Item{
