@@ -1,6 +1,7 @@
 package programmers.lv2;
 
 public class Count_Quad {
+    String
     int[] answer = new int[2];
     public int[] solution(int[][] arr) {
         zipQuad(arr,0,0,arr.length);
