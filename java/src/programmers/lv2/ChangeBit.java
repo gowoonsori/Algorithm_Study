@@ -12,6 +12,7 @@ public class ChangeBit {
            answer[0]++;
            tmp_length = removeZero(s);
            answer[1] += s.length() - tmp_length;
+           s = change(tmp_length);
            //s = Integer.toBinaryString(tmp_length);
         }
         return answer;
