@@ -18,8 +18,8 @@ public class connect {
     static int N;
     static List<Link> worldLink = new ArrayList<>();
     static Set<String> countries = new HashSet<>();
-
     static Map<String,String> sets = new HashMap<>();
+
     public static void main(String[] args) {
         int answer=0;
         Scanner scanner = new Scanner(System.in);
