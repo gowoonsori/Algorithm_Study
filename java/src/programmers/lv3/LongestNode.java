@@ -16,6 +16,8 @@ class Node{
         this.num = num;
         this.distance = distance;
     }
+
+
 }
 
 public class LongestNode {
