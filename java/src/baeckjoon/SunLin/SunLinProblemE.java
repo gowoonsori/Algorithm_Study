@@ -1,4 +1,4 @@
-package baeckjoon;
+package baeckjoon.SunLin;
 
 import java.util.ArrayList;
 import java.util.List;
