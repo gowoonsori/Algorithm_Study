@@ -2,4 +2,5 @@
 out/*
 
 # 기업들 코테
-src/coupang/
+src/coupang/*
+src/saramins/*
